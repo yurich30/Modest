@@ -1,0 +1,96 @@
+/* xs - mobile
+sm - tablet
+md - laptop
+lg - desktop */
+
+.col_xs_6 {
+    width: 48.68%;
+}
+.col_xs_9 {
+    width: 74.45%;
+}
+.col_xs_10 {
+    width: 82.89%;
+}
+.col_xs_12 {
+    width: 100%;
+}
+
+
+/* Tablet */
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col_sm_3 {
+        width: 23.07%;
+    }
+    .col_sm_4 {
+        width: 31.57%;
+    }
+    .col_sm_5 {
+        width: 40.17%;
+    }
+    .col_sm_6 {
+        width: 48.68%;
+    }
+    .col_sm_7 {
+        width: 57.28%;
+    }
+    .col_sm_8 {
+        width: 65.78%;
+    }
+    .col_sm_9 {
+        width: 74.45%;
+    }
+    .col_sm_10 {
+        width: 82.89%;
+    }
+}
+
+
+/* Laptop */
+@media(min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    .col_md_2 {
+        width: 14.47%;
+    }
+    .col_md_3 {
+        width: 23.07%;
+    }
+    .col_md_4 {
+        width: 31.4%;
+    }
+    .col_md_5 {
+        width: 40.17%;
+    }
+    .col_md_6 {
+        width: 48.68%;
+    }
+    .col_md_7 {
+        width: 57.28%;
+    }
+    .col_md_10 {
+        width: 82.89%;
+    }
+    .col_md_12 {
+        width: 100%;
+    }
+}
+
+
+/* Desktop */
+@media(min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    .col_lg_2 {
+        width: 14.47%;
+    }
+    .col_lg_12 {
+        width: 100%;
+    }
+}
